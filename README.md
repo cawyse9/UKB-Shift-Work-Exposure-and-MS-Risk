@@ -178,7 +178,7 @@ The datafields used are:
 
 ## 7. Scripts to Run Data Analysis 
 
-#### Script 1 = [Prospective Study Script](Scripts/current_SW_analysis_210624) - get tables of descriptive data and Cox models for current (assessment centre shift work question)
-#### Script 2 = [Retrospective Study Script](SW_analysis_140724) - data processing and analytics for retrospective study
-#### Script 3 = [Merge MS Diagnois Data](get_NDD_var_040124) - merge the MS diagnosis data (run in conjunction with Script 2)
+#### Script 1 = [Prospective Study Script](Scripts/current_SW_analysis_210624.R) - get tables of descriptive data and Cox models for current (assessment centre shift work question)
+#### Script 2 = [Retrospective Study Script](Scripts/SW_analysis_140724.R) - data processing and analytics for retrospective study
+#### Script 3 = [Merge MS Diagnois Data](Scripts/get_NDD_var_040124.R) - merge the MS diagnosis data (run in conjunction with Script 2)
 
