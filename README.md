@@ -11,7 +11,7 @@ Data are processed to give parameters used to compare the effects of shiftwork a
 https://biobank.ndph.ox.ac.uk/showcase/label.cgi?id=130
 
 
-The R code is [here](scripts/extract_SW_metrics270224.R)
+The R code is [here](Scripts/extract_SW_metrics270224.R)
 Two for loops iterate over each job for each eid to make a table that summarises job history for each person.  These tables were stored in a folder of csv files.  Because some people had two jobs per year, the data are expressed as hours per year.  No person had more than 39 jobs in their lifetime.  The life_jobtable csv is a list of all jobs history for all eids and another loop fast-read these files and summarised type of shiftwork, occupation, hours per year and dose exposure to nightshift at each age bracket.  The age_brackets were:
 15-20
 21-25
