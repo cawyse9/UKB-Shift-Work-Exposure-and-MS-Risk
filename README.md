@@ -157,7 +157,7 @@ The participants with a diagnosis of Dementia  are taken from UKB variables 4201
 
 
 
-R code is [here](scripts/get_MS_var-to-add-to-github.R) 
+R code is [here](Scripts/get_MS_var-to-add-to-github.R) 
 Particiants that had a diagnosis before age 20 were excluded.  Unknown or uncertain diagnosis dates are not excluded, but not possible to know if they were diagnosed before 20
        
 
@@ -175,4 +175,10 @@ The datafields used are:
 |current smoking |Data field = 1239.0.0|
 |early_life_smoking|derived variable smoking between 15-20yo|
 |age_stop_smoking| Data field = 2897.0.0|
+
+## 7. Scripts to Run Data Analysis 
+
+#### Script 1 = [Prospective Study Script](Scripts/current_SW_analysis_210624) - get tables of descriptive data and Cox models for current (assessment centre shift work question)
+#### Script 2 = [Retrospective Study Script](SW_analysis_140724) - data processing and analytics for retrospective study
+#### Script 3 = [Merge MS Diagnois Data](get_NDD_var_040124) - merge the MS diagnosis data (run in conjunction with Script 2)
 
